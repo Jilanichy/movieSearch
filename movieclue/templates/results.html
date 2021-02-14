@@ -1,0 +1,47 @@
+{% include 'base.html' %}
+
+<style type="text/css">
+
+body {
+  background: #f4f4f4;
+}
+.banner {
+  background: #a770ef;
+  background: -webkit-linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+  background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+}
+</style>
+
+<div class="container-fluid">
+  <div class="px-lg-5">
+
+    <!-- For demo purpose -->
+    <div class="row py-5">
+      <div class="col-lg-12 mx-auto">
+        <div class="text-white p-5 shadow-sm rounded banner">
+          <center><h1 class="display-4">Movie Lists</h1></center>
+          <p class="lead"></p>
+          <p class="lead"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+    	{% for movie in movies %}
+
+      <!-- Gallery item -->
+      <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+        <div class="bg-white rounded shadow-sm"><img src="{{ movie.Poster }}" alt="" class="img-fluid card-img-top">
+          <div class="p-4">
+            <h5> <a href="#" class="text-dark">{{ movie.Title }}</a></h5>
+            <p class="small text-muted mb-0">Release Year: {{ movie.Year }}</p>
+            <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+              <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">IMDB ID: {{ movie.imdbID }}</span></p>
+              <div class="badge badge-danger px-3 rounded-pill font-weight-normal"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+</div>
+

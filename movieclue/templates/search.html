@@ -1,0 +1,32 @@
+{% include 'base.html' %}
+<body>
+    <div class="search-field">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Movie & TV Series Finder</h2>
+                <p class="text-center">Search Any Film / TV Show Here ...</p>
+            </div>
+            <div class="container">
+                <form method="" action="/find/" class="form-inline">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <div class="selection" style="display: inline-flex;">
+                            {{ form.choice }}
+                        </div>
+                    </div>
+                    {{ form.search }}
+                    {{ form.year }}
+                    <br><br>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col text-center">
+                          <button class="btn btn-primary">SEARCH INFO</button>
+                        </div>
+                      </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>

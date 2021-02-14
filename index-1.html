@@ -1,0 +1,29 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Unknown </title></head><body>
+<h1 id="movie-search-app-using-omdb-api">Movie Search App using OMDB API</h1>
+<h2 id="a-movie-tv-show-search-web-application-using-omdb-api-powered-by-django">A Movie / TV Show Search Web Application using OMDB API powered by Django.</h2>
+<p><b>Language Choice:</b> Python, JavaScript <br>
+<b>Frameworks:</b> Django, Bootstrap <br>
+<b>API:</b> OMDB</p>
+<h3 id="features">Features</h3>
+<ul>
+<li>It has Django's User Authentication System where user can Sign up and login.</li>
+<li>After successfully Signing in, user can able to see logout option.</li>
+<li>Any user caThen, replace the API key in Service.pyn search any movie / tv show by using three criteria (type, title, release year)</li>
+<li>It'll show details(title,genre,plot,poster, etc.) of the movie / tv show in a separate page.</li>
+<li>Dashboard displays a list of movies.</li>
+</ul>
+<h3 id="instructions-to-run-this-app-on-local-machine">Instructions to run this app on local machine</h3>
+<p>First, Clone the repository and go to the project folder
+<code>console
+git clone https://github.com/rish4bhn/movieclue.git &amp;&amp; cd movieclue</code></p>
+<p>Install required dependencies of the project
+ <code>console
+ pip install -r requirements.txt</code></p>
+<p>After that, go to the "API Key" section of OMDB and generate a free API.
+<code>console
+http://www.omdbapi.com/apikey.aspx</code>
+Then, replace the generated API key in line 10 &amp; 55 of services.py and line 85 of views.py with existing one.</p>
+<p>Finally, start the application with this command and open it on local server (e.g. http://127.0.0.1:8000/)
+<code>console
+python manage.py runserver</code></p>
+</body></html>
