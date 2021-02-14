@@ -12,7 +12,7 @@
 
   - It has Django's User Authentication System where user can Sign up and login.
   - After successfully Signing in, user can able to see logout option.
-  - Any user caThen, replace the API key in Service.pyn search any movie / tv show by using three criteria (type, title, release year)
+  - Any user can search any movie / tv show by using three criteria (type, title, release year)
   - It'll show details(title,genre,plot,poster, etc.) of the movie / tv show in a separate page.
   - Dashboard displays a list of movies.
 
