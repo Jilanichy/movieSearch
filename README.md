@@ -10,7 +10,7 @@
 
 ### Features
 
-  - It has Django's User Authentication System where user can Sign up and login.
+  - It has Django's User Authentication System where user can Sign up, Login, and Logout.
   - After successfully Signing in, user can able to see logout option.
   - Any user can search any movie / tv show by using three criteria (type, title, release year)
   - It'll show details(title,genre,plot,poster, etc.) of the movie / tv show in a separate page.
