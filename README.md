@@ -21,7 +21,7 @@
 
 First, Clone the repository and go to the project folder
 ```console
-git clone https://github.com/rish4bhn/movieclue.git && cd movieclue
+git clone https://github.com/Jilanichy/movieSearch && cd movieclue
 ```
 
 Install required dependencies of the project
