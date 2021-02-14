@@ -2,9 +2,10 @@
 
 ## A Movie / TV Show Search Web Application using OMDB API powered by Django.
 
-<b>Language Choice:</b> Python, JavaScript <br>
-<b>Frameworks:</b> Django, Bootstrap <br>
+<b>Language Choice:</b> Python <br>
+<b>Frameworks:</b> Django <br>
 <b>API:</b> OMDB
+<b>FrontEnd:</b> Bootstrap, Css, Html <br>
 
 
 ### Features
