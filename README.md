@@ -4,7 +4,7 @@
 
 <b>Language Choice:</b> Python <br>
 <b>Frameworks:</b> Django <br>
-<b>API:</b> OMDB
+<b>API:</b> OMDB <br>
 <b>FrontEnd:</b> Bootstrap, Css, Html <br>
 
 
