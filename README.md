@@ -33,9 +33,9 @@ After that, go to the "API Key" section of OMDB and generate a free API.
 ```console
 http://www.omdbapi.com/apikey.aspx
 ```
-Then, replace the generated API key in line 10 & 55 of services.py and line 85 of views.py with existing one.
+Then, replace the generated API key in line 10 & 55 of "services.py" and line 85 of "views.py" with existing one.
 
-Finally, start the application with this command and open it on local server (e.g. http://127.0.0.1:8000/)
+Finally, start the application with the following command and open it on local server (e.g. http://127.0.0.1:8000/)
 ```console
 python manage.py runserver
 ```
